@@ -378,10 +378,22 @@ nav .fas{
 
 
              /* for small screen */
+ @media screen and (max-width: 500px){
+ #sideMenu > p > a{
+    font-size: 10px;
+ }
+ nav > h1{
+    font-size: 30px;
+ }
+ nav > h1 > span{
+    font-size: 45px;
+ }
+}
+
 
 @media screen and (max-width: 800px){
     .container > h1{
-        font-size: large;
+        font-size: 40px;
     }
    .skill-container{
     display: grid;
